@@ -18,17 +18,15 @@ const allowedOrigins = [
 
 app.use(
   cors({
-<<<<<<< HEAD
-    origin: (origin, callback) => {
+   origin: (origin, callback) => {
       if (!origin || allowedOrigins.includes(origin)) {
         callback(null, true);
       } else {
         callback(new Error("Not allowed by CORS"));
       }
     },
-=======
+
     origin: "http://localhost:5173, https://virtual-assistant-fgs2.onrender.com",
->>>>>>> 4ae3ff273b7bcf2567ff60f2b59fdfcd0c744b4a
     credentials: true,
   })
 );
