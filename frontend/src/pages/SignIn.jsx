@@ -1,6 +1,6 @@
 import { IoEye } from "react-icons/io5";
 import { IoEyeOff } from "react-icons/io5";
-import authBg from "../assets/authbg.png";
+import authBg from "../assets/authBg.png";
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {UserContext} from "../context/UserContext";
