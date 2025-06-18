@@ -3,7 +3,7 @@ import axios from "axios";
 import { UserContext } from "./UserContext";
 
 const UserProvider = ({ children }) => {
-  const serverUrl = "http://localhost:5000";
+  const serverUrl = "https://virtual-assistant-backend-fbem.onrender.com";
   const [userData, setUserData] = useState(null);
   const [frontendImage, setFrontendImage] = useState(null);
   const [backendImage, setBackendImage] = useState(null);
