@@ -3,7 +3,7 @@ import { useContext, useEffect, useRef, useState } from "react";
 import { UserContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import aiImg from "../assets/voice.gif"; // Make sure these paths are correct
+import aiImg from "../assets/ai.gif"; // Make sure these paths are correct
 import userImg from "../assets/user.gif"; // Make sure these paths are correct
 import { FiLogOut, FiSettings, FiSend, FiMenu, FiX } from "react-icons/fi";
 import { MdHistory, MdClose } from "react-icons/md";
